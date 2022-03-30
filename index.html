@@ -6,28 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <title>BEM Notation & OOCSS: Writing scaleable CSS</title>
 </head>
 
 <body>
-    <h1>BEM Wars</h1>
-    <div class="container">
-        <div>
-            <h2>The Dark Side</h2>
-            <img src="./images/vader.jpeg">
-            <p>Nesting!</p>
-            <p>Conflict!</p>
-            <p>Specificity Wars!</p>
-            <p>Cookies</p>
+  <h1>BEM Wars</h1>
+    <div class="card-container">
+        <div class="card card--dark">
+            <div>
+                <h2>The Dark Side</h2>
+                <img src="./images/vader.jpeg">
+                <p>Nesting!</p>
+                <p>Conflict!</p>
+                <p>Specificity Wars!</p>
+                <p>Cookies</p>
+            </div>
         </div>
 
-        <div>
-            <h2>The Force</h2>
-            <img src="./images/yoda.jpeg">
-            <p>Love</p>
-            <p>Beauty</p>
-            <p>CSS that Scales!</p>
-            <p>Great warrior. Wars not make one great!</p>
+        <div class="card card--light">
+            <div>
+                <h2>The Force</h2>
+                <img src="./images/yoda.jpeg">
+                <p>Love</p>
+                <p>Beauty</p>
+                <p>CSS that Scales!</p>
+                <p>Great warrior. Wars not make one great!</p>
+            </div>
         </div>
     </div>
 </body>

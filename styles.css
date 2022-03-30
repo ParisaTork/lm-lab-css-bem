@@ -1,7 +1,41 @@
-/* You can delete / re-write this img class  */
-
-img {
-    max-width: 200px;
+h1 {
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
 }
 
-/* Happy coding! */
+h2, img, p {
+    font-family: "Audiowide", sans-serif;
+    max-width: 200px;
+    justify-content: center;
+}
+
+/* Structure */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.card {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 10px;
+    border: 2px outset grey;
+}
+
+/* Skins */
+
+.card--light {
+    background-color: whitesmoke;
+    color: black;
+    text-shadow: 2px 2px lightblue;
+}
+
+.card--dark {
+    background-color: black;
+    color: white;
+    text-shadow: 2px 2px red;
+}
